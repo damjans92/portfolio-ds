@@ -7,12 +7,7 @@ import AnimatedBackground from './AnimatedBackground'
 const Main = () => {
   return (
     <div id='main' className='h-screen overflow-hidden'>
-      <div className='animate-slideinX absolute right-0 top-0 h-full w-full overflow-hidden bg-slate-100 z-[10]'>
-        <div className='absolute right-0 top-0 bg-[#141946]   -skew-x-1 h-full animate-grow1 z-[5]' />
-        <div className='absolute right-0 top-0 bg-[#385dff] skew-x-3 h-full animate-grow2 z-[4]' />
-        <div className='absolute right-0 top-0  bg-slate-300 -skew-x-3 h-full   animate-grow3 z-[3]' />
-      </div>
-
+      <AnimatedBackground />
       <div className='w-full h-screen absolute top-0 left-0   z-10'>
         <div className='max-w-[700px] m-auto h-full w-full flex flex-col justify-center lg:items-start items-center'>
           <motion.div
@@ -31,7 +26,7 @@ const Main = () => {
             <h2 className='flex sm:text-3xl text-2xl mt-4  text-gray-800'>
               I&apos;m a
               <TypeAnimation
-                sequence={['Web Developer', 1000, 'Tech Entusiast', 2000]}
+                sequence={['Web Developer', 1000, 'Tech Enthusiast', 2000]}
                 wrapper='div'
                 speed={50}
                 style={{ fontSize: '1em', paddingLeft: '5px' }}

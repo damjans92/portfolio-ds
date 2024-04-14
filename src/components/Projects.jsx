@@ -4,6 +4,7 @@ import ProjectItem from './ProjectItem'
 import tubeland from '../assets/tubeland.png'
 import drsavkovic from '../assets/drsavkovic.png'
 import torexrs from '../assets/torexrs.png'
+import inspektor from '../assets/inspektorrs.png'
 import mondlinepro from '../assets/mondlinepro.png'
 import portfolio from '../assets/portfolio.png'
 
@@ -28,8 +29,9 @@ const Projects = () => {
         <ProjectItem
           order={1}
           image={tubeland}
-          title='Video Sharing App'
+          title='TubeLand - Video Sharing (personal project)'
           url='https://tubeland.onrender.com'
+          githubUrl={''}
           tags={[
             'MERN stack',
             'ReactJs',
@@ -46,28 +48,37 @@ const Projects = () => {
           image={drsavkovic}
           title='Dr Savkovic Dental'
           url='https://drsavkovic.rs'
+          githubUrl={''}
           tags={['ReactJs', 'GatsbyJs', 'GraphQL', 'Contentful CMS']}
         />
         <ProjectItem
           order={3}
+          image={inspektor}
+          title='Inspektor'
+          url='https://inspektor.gov.rs'
+          tags={['HTML', 'CSS', 'Bootstrap', 'JS', 'Jquery']}
+        />
+        <ProjectItem
+          order={4}
+          image={portfolio}
+          title='This Site'
+          url='#'
+          githubUrl={''}
+          tags={['ReactJs', 'TailwindCSS', 'Framer Motion']}
+        />
+        <ProjectItem
+          order={5}
           image={torexrs}
           title='Torex'
           url='https://torex.smartweb.com'
           tags={['HTML', 'CSS', 'Bootstrap', 'JS', 'Jquery', 'Wordpress']}
         />
         <ProjectItem
-          order={4}
+          order={6}
           image={mondlinepro}
           title='Mond Line Pro'
           url='https://mondlinepro.rs/'
           tags={['HTML', 'CSS', 'Bootstrap', 'JS', 'Jquery', 'Wordpress']}
-        />
-        <ProjectItem
-          order={5}
-          image={portfolio}
-          title='This Site'
-          url='#'
-          tags={['ReactJs', 'TailwindCSS', 'Framer Motion']}
         />
       </div>
     </div>

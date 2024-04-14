@@ -1,7 +1,6 @@
 import React from 'react'
-import { motion, useInView } from 'framer-motion'
 
-const ExperienceItem = ({ year, duration, title, details, variants }) => {
+const ExperienceItem = ({ year, duration, title, details }) => {
   return (
     <li className='mb-10 ml-4 '>
       <div className='absolute w-3 h-3 bg-stone-200 rounded-full -left-[6px] top-[7px] border border-white' />
