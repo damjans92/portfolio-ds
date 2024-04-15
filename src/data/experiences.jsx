@@ -1,7 +1,7 @@
 export const expData = [
   {
     id: 5,
-    year: '2023',
+    year: 2023,
     duration: 'current',
     title: 'Personal Projects',
     details:

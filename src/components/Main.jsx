@@ -3,6 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { FaLinkedinIn } from 'react-icons/fa'
 import AnimatedBackground from './AnimatedBackground'
+import pdf from '../pdf/Damjan_Savkovic_CV.pdf'
 
 const Main = () => {
   return (
@@ -55,7 +56,7 @@ const Main = () => {
                 </a>
               </div>
               <a
-                href='#_'
+                href={pdf}
                 className='relative p-0.5 inline-flex items-center justify-center font-bold overflow-hidden group rounded-md'
               >
                 <span className='w-full h-full bg-gradient-to-br from-[#46ffff] via-[#0285ff] to-[#6936df] group-hover:from-[#46ffff] group-hover:via-[#0285ff] group-hover:to-[#6936df] absolute'></span>

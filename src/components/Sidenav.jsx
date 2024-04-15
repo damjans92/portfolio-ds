@@ -7,6 +7,7 @@ import {
 } from 'react-icons/ai'
 import { BsPerson } from 'react-icons/bs'
 import { GrProjects } from 'react-icons/gr'
+import pdf from '../pdf/Damjan_Savkovic_CV.pdf'
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false)
@@ -89,7 +90,7 @@ const Sidenav = () => {
               <div className='tooltiptext bg-gray-100'>Projects</div>
             </a>
             <a
-              href='#resume'
+              href={pdf}
               className='tooltip rounded-full shadow-lg shadow-gray-400 bg-gray-100 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration'
             >
               <BsPerson size={20} />

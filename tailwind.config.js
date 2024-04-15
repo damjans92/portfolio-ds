@@ -57,6 +57,15 @@ export default {
             width: '80%',
           },
         },
+        growOnce: {
+          '0%': {
+            width: '0%',
+          },
+
+          '100%': {
+            width: '100%',
+          },
+        },
       },
       animation: {
         slidein0: 'slidein 1s ease 0ms forwards',
@@ -68,6 +77,7 @@ export default {
         grow1: 'grow1 5s ease 0ms infinite',
         grow2: 'grow2 6s ease 0ms infinite',
         grow3: 'grow3 7s ease 0ms infinite',
+        growOnce: 'growOnce 3s ease 0ms forwards',
       },
       fontFamily: {
         fira: ['Fira Sans', 'sans-serif'],
