@@ -30,6 +30,7 @@ const Contact = () => {
                 Name
               </label>
               <input
+                required
                 type='text'
                 name='name'
                 className='border-2 mt-2 border-gray-300 p-2 rounded-lg focus:border-blue-400 focus:outline-none'
@@ -57,6 +58,7 @@ const Contact = () => {
               Email
             </label>
             <input
+              required
               type='email'
               name='email'
               className='border-2 mt-2 border-gray-300 p-2 rounded-lg focus:border-blue-400 focus:outline-none'
@@ -70,6 +72,7 @@ const Contact = () => {
               Subject
             </label>
             <input
+              required
               type='text'
               name='subject'
               className='border-2 mt-2 border-gray-300 p-2 rounded-lg focus:border-blue-400 focus:outline-none'
@@ -83,8 +86,10 @@ const Contact = () => {
               Message
             </label>
             <textarea
+              required
               rows='10'
               name='message'
+              minLength='20'
               className='border-2 mt-2 border-gray-300 p-2 rounded-lg focus:border-blue-400 focus:outline-none'
             />
           </div>
