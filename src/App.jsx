@@ -1,7 +1,7 @@
 import Contact from './components/Contact'
-import Experience from './components/Experience'
-import Main from './components/Main'
-import Projects from './components/Projects'
+import Experience from './components/Experience/Experience'
+import Main from './components/Hero/Main'
+import Projects from './components/Projects/Projects'
 import Sidenav from './components/Sidenav'
 
 function App() {

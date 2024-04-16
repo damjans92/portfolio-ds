@@ -1,7 +1,7 @@
 import React from 'react'
 import ExperienceItem from './ExperienceItem'
 import { motion } from 'framer-motion'
-import { expData } from '../data/experiences'
+import { expData } from '../../data/experiences'
 
 const containerVariants = {
   hidden: { opacity: 0 },

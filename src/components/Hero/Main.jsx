@@ -3,7 +3,7 @@ import { TypeAnimation } from 'react-type-animation'
 import { motion } from 'framer-motion'
 import { FaLinkedinIn } from 'react-icons/fa'
 import AnimatedBackground from './AnimatedBackground'
-import pdf from '../pdf/Damjan_Savkovic_CV.pdf'
+import pdf from '../../pdf/Damjan_Savkovic_CV.pdf'
 
 const Main = () => {
   return (

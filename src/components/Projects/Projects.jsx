@@ -1,12 +1,12 @@
 import React from 'react'
 import { motion } from 'framer-motion'
 import ProjectItem from './ProjectItem'
-import tubeland from '../assets/tubeland.png'
-import drsavkovic from '../assets/drsavkovic.png'
-import torexrs from '../assets/torexrs.png'
-import inspektor from '../assets/inspektorrs.png'
-import mondlinepro from '../assets/mondlinepro.png'
-import portfolio from '../assets/portfolio.png'
+import tubeland from '../../assets/tubeland.png'
+import drsavkovic from '../../assets/drsavkovic.png'
+import torexrs from '../../assets/torexrs.png'
+import inspektor from '../../assets/inspektorrs.png'
+import mondlinepro from '../../assets/mondlinepro.png'
+import portfolio from '../../assets/portfolio.png'
 
 const Projects = () => {
   return (
