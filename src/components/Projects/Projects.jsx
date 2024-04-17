@@ -31,7 +31,8 @@ const Projects = () => {
           image={tubeland}
           title='TubeLand - Video Sharing (personal project)'
           url='https://tubeland.onrender.com'
-          githubUrl={''}
+          githubUrl={'https://github.com/damjans92/mern-video-app-frontend'}
+          githubUrl2={'https://github.com/damjans92/mern-video-app-backend'}
           tags={[
             'MERN stack',
             'ReactJs',
@@ -48,7 +49,7 @@ const Projects = () => {
           image={drsavkovic}
           title='Dr Savkovic Dental'
           url='https://drsavkovic.rs'
-          githubUrl={''}
+          githubUrl={'https://github.com/damjans92/ordinacija'}
           tags={['ReactJs', 'GatsbyJs', 'GraphQL', 'Contentful CMS']}
         />
         <ProjectItem
@@ -56,6 +57,7 @@ const Projects = () => {
           image={inspektor}
           title='Inspektor'
           url='https://inspektor.gov.rs'
+          githubUrl={''}
           tags={['HTML', 'CSS', 'Bootstrap', 'JS', 'Jquery']}
         />
         <ProjectItem
@@ -63,7 +65,7 @@ const Projects = () => {
           image={portfolio}
           title='This Site'
           url='#'
-          githubUrl={''}
+          githubUrl={'https://github.com/damjans92/portfolio-ds'}
           tags={['ReactJs', 'TailwindCSS', 'Framer Motion']}
         />
         <ProjectItem
@@ -71,13 +73,15 @@ const Projects = () => {
           image={torexrs}
           title='Torex'
           url='https://torex.smartweb.com'
+          githubUrl={''}
           tags={['HTML', 'CSS', 'Bootstrap', 'JS', 'Jquery', 'Wordpress']}
         />
         <ProjectItem
           order={6}
           image={mondlinepro}
-          title='Mond Line Pro'
+          title='Mond Line Pro (redesign)'
           url='https://mondlinepro.rs/'
+          githubUrl={''}
           tags={['HTML', 'CSS', 'Bootstrap', 'JS', 'Jquery', 'Wordpress']}
         />
       </div>
