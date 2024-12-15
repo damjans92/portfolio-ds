@@ -1,31 +1,39 @@
 export const expData = [
   {
+    id: 6,
+    year: "Current",
+    duration: "current",
+    title: "Personal Projects",
+    details:
+      "Focused on personal development primarily in React.js, with additional experience in Node.js and Express through hands-on tutorials and projects. Maintained the DrSavkovic website",
+  },
+  {
     id: 5,
     year: 2023,
-    duration: 'current',
-    title: 'Personal Projects',
+    duration: "current",
+    title: "Personal Projects",
     details:
-      'Learning Blender and 3D modelling and doing personal projects in ReactJs',
+      "Learning Blender and 3D modelling and doing personal projects in ReactJs",
   },
   {
     id: 4,
     year: 2022,
-    title: 'LetsgoDev ',
-    duration: '4 months',
+    title: "LetsgoDev ",
+    duration: "4 months",
     details:
-      'Contributed to the development of the frontend using Angular for the BarrelFish candidate search app. Collaborated with the team to improve user interface',
+      "Contributed to the development of the frontend using Angular for the BarrelFish candidate search app. Collaborated with the team to improve user interface",
   },
   {
     id: 3,
     year: 2021,
-    title: 'Personal Projects',
-    details: 'Learning ReactJs and doing personal projects and courses',
+    title: "Personal Projects",
+    details: "Learning ReactJs and doing personal projects and courses",
   },
   {
     id: 2,
     year: 2018,
-    title: 'Optima Apps',
-    duration: '2 years',
+    title: "Optima Apps",
+    duration: "2 years",
     details: (
       <>
         <ul>
@@ -61,8 +69,8 @@ export const expData = [
   {
     id: 1,
     year: 2016,
-    title: 'Smart Web Solutions',
-    duration: '2 years',
+    title: "Smart Web Solutions",
+    duration: "2 years",
     details: (
       <ul>
         <li>- Creating and maintaining custom HTML themes for Wordpress</li>
@@ -74,4 +82,4 @@ export const expData = [
       </ul>
     ),
   },
-]
+];
